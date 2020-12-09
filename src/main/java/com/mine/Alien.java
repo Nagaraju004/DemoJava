@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class Alien {
 
 	private int aid;
+	private int count;
 	private String aname;
 	@Autowired  //It search in container for getting object of laptop
 	@Qualifier("lap")  //search by name
